@@ -1,5 +1,11 @@
-<h1>あなたが最も重視するものを選んでください</h1>
-<%= render 'question_big1'%>
-<%= render 'question_big2'%>
-<%= render 'question_big3'%>
-<p><input type="submit" value="送信する"></p>
+<div class="container">
+
+  <h2 class="text-center title" style="font-size: 3em;">あなたが最も重要視するものを選んでください</h2>
+  <div class="row">
+    <div class= "main-question" style="display:flex; justify-content:center;">
+      <a class="btn btn-warning btn-lg" style="margin: 10px;" href="/price" role="button">料金</a>
+      <a class="btn btn-success btn-lg" style="margin: 10px;" href="/place" role="button">方面</a>
+      <a class="btn btn-primary btn-lg" style="margin: 10px;" href="/theme" role="button">旅行のテーマ</a>
+      <a class="btn btn-info btn-lg" style="margin: 10px;" href="/time" role="button">飛行時間</a>
+    </div>
+</div>
