@@ -1,4 +1,14 @@
 class PagesController < ApplicationController
-  def index
+  def top
+  end
+  def start
+  end
+  def price
+  end
+  def place
+  end
+  def theme
+  end
+  def time
   end
 end

@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  get 'pages/index'
+  root 'pages#top'
+  get '/start' => 'pages#start'
+  get '/price' => 'pages#price'
+  get '/place' => 'pages#place'
+  get '/theme' => 'pages#theme'
+  get '/time' => 'pages#time'
 end
