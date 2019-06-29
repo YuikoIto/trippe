@@ -11,4 +11,5 @@ class PagesController < ApplicationController
   end
   def time
   end
+
 end
