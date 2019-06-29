@@ -8,29 +8,30 @@
 
 				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title" style="font-size:4em;; padding-bottom: 1em;">ここからは細かな質問です<br>当てはまるものを選んでください</h1>
-				<p>方面</p>
+				<div class="question">
+				<h2 class="small_question">方面</h2>
 				<p>
-					<input type="radio" name="price" value="0" checked="checked">ヨーロッパ
-					<input type="radio" name="price" value="1">アジア
-					<input type="radio" name="price" value="2">北アメリカ
-					<input type="radio" name="price" value="3">南アメリカ
+					<input id="0" class="radio-inline__input" type="radio" name="price" value="0" checked="checked"/><label class="radio-inline__label" for="0">ヨーロッパ</label>
+					<input id="1" class="radio-inline__input" type="radio" name="price" value="1"><label class="radio-inline__label" for="1">アジア</label>
+					<input id="2" class="radio-inline__input" type="radio" name="price" value="2"><label class="radio-inline__label" for="2">北アメリカ</label>
+					<input id="3" class="radio-inline__input" type="radio" name="price" value="3"><label class="radio-inline__label" for="3">南アメリカ</label>
 				</p>
-				<p>フライト時間</p>
+				<h2 class="small_question">フライト時間</h2>
 				<p>
-					<input type="radio" name="time" value="0" checked="checked">4時間以下
-					<input type="radio" name="time" value="1">6時間以下
-					<input type="radio" name="time" value="2">8時間以下
-					<input type="radio" name="time" value="3">8時間以上
+					<input id="0" class="radio-inline__input" type="radio" name="time" value="0" checked="checked"/><label class="radio-inline__label" for="0">4時間以下</label>
+					<input id="1" class="radio-inline__input" type="radio" name="time" value="1"><label class="radio-inline__label" for="1">6時間以下</label>
+					<input id="2" class="radio-inline__input" type="radio" name="time" value="2"><label class="radio-inline__label" for="2">8時間以下</label>
+					<input id="3" class="radio-inline__input" type="radio" name="time" value="3"><label class="radio-inline__label" for="3">8時間以上</label>
 				</p>
-				<p>旅行テーマ</p>
+				<h2 class="small_question">旅行テーマ</h2>
 				<p>
-					<input type="radio" name="theme" value="0" checked="checked">海
-					<input type="radio" name="theme" value="1">都市
-					<input type="radio" name="theme" value="2">料理
-					<input type="radio" name="theme" value="3">買い物
+					<input id="0" class="radio-inline__input" type="radio" name="theme" value="0" checked="checked"/><label class="radio-inline__label" for="0">海</label>
+					<input id="1" class="radio-inline__input" type="radio" name="theme" value="1"><label class="radio-inline__label" for="1">都市</label>
+					<input id="2" class="radio-inline__input" type="radio" name="theme" value="2"><label class="radio-inline__label" for="2">料理</label>
+					<input id="3" class="radio-inline__input" type="radio" name="theme" value="3"><label class="radio-inline__label" for="3">買い物</label>
 				</p>
-				<p><input type="button" value="ボタン" onclick="getRadioValue('place');"></p>
-
+				<p><input type="button" value="送信する" onclick="getRadioValue('place');"></p>
+				</div>
       </div>
 
 			</div> <!-- /col -->
