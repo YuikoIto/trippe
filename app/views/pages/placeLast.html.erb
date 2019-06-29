@@ -8,7 +8,8 @@
 
 				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title" style="font-size:4em;; padding-bottom: 1em;">ここからは細かな質問です<br>当てはまるものを選んでください</h1>
-				<p>料金</p>
+				<div class="question">
+				<h2 class="small_question">料金</h2>
 				<p>
 					<input type="radio" name="price" value="0" checked="checked">5万以下
 					<input type="radio" name="price" value="1">10万以下
@@ -16,14 +17,14 @@
 					<input type="radio" name="price" value="3">20万以下
 					<input type="radio" name="price" value="4">20万以上
 				</p>
-				<p>フライト時間</p>
+				<h2 class="small_question">フライト時間</h2>
 				<p>
 					<input type="radio" name="time" value="0" checked="checked">4時間以下
 					<input type="radio" name="time" value="1">6時間以下
 					<input type="radio" name="time" value="2">8時間以下
 					<input type="radio" name="time" value="3">8時間以上
 				</p>
-				<p>旅行テーマ</p>
+				<h2 class="small_question">旅行テーマ</h2>
 				<p>
 					<input type="radio" name="theme" value="0" checked="checked">海
 					<input type="radio" name="theme" value="1">都市
@@ -51,7 +52,7 @@
 				<p><input type="button" value="ボタン" onclick="getCheckVal('check');"></p>
 
 				<p><input type="button" value="ボタン" onclick="getRadioValue('place');"></p>
-
+				</div>
       </div>
 
 			</div> <!-- /col -->

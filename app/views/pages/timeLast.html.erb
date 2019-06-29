@@ -8,7 +8,8 @@
 
 				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title" style="font-size:4em;; padding-bottom: 1em;">ここからは細かな質問です<br>当てはまるものを選んでください</h1>
-				<p>料金</p>
+				<div class="question">
+				<h2 class="small_question">料金</h2>
 				<p>
 					<input type="radio" name="price" value="0" checked="checked">5万以下
 					<input type="radio" name="price" value="1">10万以下
@@ -16,20 +17,21 @@
 					<input type="radio" name="price" value="3">20万以下
 					<input type="radio" name="price" value="4">20万以上
 				</p>
-				<p>方面</p>
+				<h2 class="small_question">方面</h2>
 				<p>
 					<input type="radio" name="time" value="0" checked="checked">ヨーロッパ
 					<input type="radio" name="time" value="1">アジア
 					<input type="radio" name="time" value="2">北アメリカ
 					<input type="radio" name="time" value="3">南アメリカ
 				</p>
-				<p>旅行テーマ</p>
+				<h2 class="small_question">旅行テーマ</h2>
 				<p>
 					<input type="radio" name="theme" value="0" checked="checked">海
 					<input type="radio" name="theme" value="1">都市
 					<input type="radio" name="theme" value="2">料理
 					<input type="radio" name="theme" value="3">買い物
 				</p>
+
 				<input type="checkbox" name="check" value="0">古代遺跡
 				<input type="checkbox" name="check" value="1">カジノ
 				<input type="checkbox" name="check" value="2">ピラミッド
@@ -50,6 +52,7 @@
 				<p><input type="button" value="ボタン" onclick="getCheckVal('check');"></p>
 
 				<p><input type="button" value="ボタン" onclick="getRadioValue('price');"></p>
+
 
       </div>
 
