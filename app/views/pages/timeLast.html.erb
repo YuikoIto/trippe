@@ -16,20 +16,23 @@
 					<input class="radio-inline__input" type="radio" name="price" value="2"><label class="radio-inline__label" for="2">15万以下</label>
 					<input class="radio-inline__input" type="radio" name="price" value="3"><label class="radio-inline__label" for="3">20万以下</label>
 					<input class="radio-inline__input" type="radio" name="price" value="4"><label class="radio-inline__label" for="4">20万以上</label>
+					<input class="radio-inline__input" type="radio" name="price" value="9"><label class="radio-inline__label" for="9">特に希望なし</label>
 				</p>
 				<h2 class="small_question">方面</h2>
 				<p>
-					<input class="radio-inline__input" type="radio" name="price" value="0" checked="checked"/><label class="radio-inline__label" for="0">ヨーロッパ</label>
-					<input class="radio-inline__input" type="radio" name="price" value="1"><label class="radio-inline__label" for="1">アジア</label>
-					<input class="radio-inline__input" type="radio" name="price" value="2"><label class="radio-inline__label" for="2">北アメリカ</label>
-					<input class="radio-inline__input" type="radio" name="price" value="3"><label class="radio-inline__label" for="3">南アメリカ</label>
+					<input class="radio-inline__input" type="radio" name="place" value="0" checked="checked"/><label class="radio-inline__label" for="0">ヨーロッパ</label>
+					<input class="radio-inline__input" type="radio" name="place" value="1"><label class="radio-inline__label" for="1">アジア</label>
+					<input class="radio-inline__input" type="radio" name="place" value="2"><label class="radio-inline__label" for="2">北アメリカ</label>
+					<input class="radio-inline__input" type="radio" name="place" value="3"><label class="radio-inline__label" for="3">南アメリカ</label>
+					<input class="radio-inline__input" type="radio" name="place" value="9"><label class="radio-inline__label" for="9">特に希望なし</label>
 				</p>
 				<h2 class="small_question">旅行テーマ</h2>
 				<p>
 					<input class="radio-inline__input" type="radio" name="theme" value="0" checked="checked"/><label class="radio-inline__label" for="0">海</label>
-					<input class="radio-inline__input" type="radio" name="theme" value="1"><label class="radio-inline__label" for="1">都市</label>
+					<input class="radio-inline__input" type="radio" name="theme" value="1"><label class="radio-inline__label" for="1">街歩き</label>
 					<input class="radio-inline__input" type="radio" name="theme" value="2"><label class="radio-inline__label" for="2">料理</label>
 					<input class="radio-inline__input" type="radio" name="theme" value="3"><label class="radio-inline__label" for="3">買い物</label>
+					<input class="radio-inline__input" type="radio" name="theme" value="9"><label class="radio-inline__label" for="9">特に希望なし</label>
 				</p>
 
 				<h2 class="small_question">あなたが重要だと思うもの（複数選択可）</h2>
@@ -48,12 +51,10 @@
 				<input class="radio-inline__input" type="checkbox" name="check" value="12"><label class="radio-inline__label" for="12">世界遺産</label>
 				<input class="radio-inline__input" type="checkbox" name="check" value="13"><label class="radio-inline__label" for="13">買い物</label>
 				<input class="radio-inline__input" type="checkbox" name="check" value="14"><label class="radio-inline__label" for="14">美味しい料理</label>
-				<input class="radio-inline__input" type="checkbox" name="check" value="15"><label class="radio-inline__label" for="15">治安</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="15"><label class="radio-inline__label" for="15">治安</label><br>
 
 
-				<p><input type="button" value="ボタン" onclick="getCheckVal('check');"></p>
-
-				<p><input type="button" value="ボタン" onclick="getRadioValue('price');"></p>
+				<a class="btn btn-warning btn-lg" style="margin: 10px;" href="/answer" role="button"><strong>結果を見る</strong></a>
 
 
       </div>
