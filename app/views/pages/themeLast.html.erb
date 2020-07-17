@@ -7,47 +7,49 @@
 			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
 
 				<!-- Site Title, your name, HELLO msg, etc. -->
-				<h1 class="title" style="font-size:4em;; padding-bottom: 1em;">ここからは細かな質問です<br>当てはまるものを選んでください</h1>
+				<h1 class="title" style="font-size:3em; padding-bottom: 0.3em;">ここからは細かな質問です<br>当てはまるものを選んでください</h1>
 				<div class="question">
 				<h2 class="small_question">料金</h2>
 				<p>
-					<input type="radio" name="price" value="0" checked="checked">5万以下
-					<input type="radio" name="price" value="1">10万以下
-					<input type="radio" name="price" value="2">15万以下
-					<input type="radio" name="price" value="3">20万以下
-					<input type="radio" name="price" value="4">20万以上
+					<input class="radio-inline__input" type="radio" name="price" value="0" checked="checked"/><label class="radio-inline__label" for="0">5万以下</label>
+					<input class="radio-inline__input" type="radio" name="price" value="1"><label class="radio-inline__label" for="1">10万以下</label>
+					<input class="radio-inline__input" type="radio" name="price" value="2"><label class="radio-inline__label" for="2">15万以下</label>
+					<input class="radio-inline__input" type="radio" name="price" value="3"><label class="radio-inline__label" for="3">20万以下</label>
+					<input class="radio-inline__input" type="radio" name="price" value="4"><label class="radio-inline__label" for="4">20万以上</label>
 				</p>
 				<h2 class="small_question">フライト時間</h2>
 				<p>
-					<input type="radio" name="time" value="0" checked="checked">4時間以下
-					<input type="radio" name="time" value="1">6時間以下
-					<input type="radio" name="time" value="2">8時間以下
-					<input type="radio" name="time" value="3">8時間以上
+					<input class="radio-inline__input" type="radio" name="time" value="0" checked="checked"/><label class="radio-inline__label" for="0">4時間以下</label>
+					<input class="radio-inline__input" type="radio" name="time" value="1"><label class="radio-inline__label" for="1">6時間以下</label>
+					<input class="radio-inline__input" type="radio" name="time" value="2"><label class="radio-inline__label" for="2">8時間以下</label>
+					<input class="radio-inline__input" type="radio" name="time" value="3"><label class="radio-inline__label" for="3">8時間以上</label>
 				</p>
 				<h2 class="small_question">方面</h2>
 				<p>
-					<input type="radio" name="theme" value="0" checked="checked">ヨーロッパ
-					<input type="radio" name="theme" value="1">アジア
-					<input type="radio" name="theme" value="2">北アメリカ
-					<input type="radio" name="theme" value="3">南アメリカ
+					<input class="radio-inline__input" type="radio" name="price" value="0" checked="checked"/><label class="radio-inline__label" for="0">ヨーロッパ</label>
+					<input class="radio-inline__input" type="radio" name="price" value="1"><label class="radio-inline__label" for="1">アジア</label>
+					<input class="radio-inline__input" type="radio" name="price" value="2"><label class="radio-inline__label" for="2">北アメリカ</label>
+					<input class="radio-inline__input" type="radio" name="price" value="3"><label class="radio-inline__label" for="3">南アメリカ</label>
 				</p>
-</div>
-				<input type="checkbox" name="check" value="0">古代遺跡
-				<input type="checkbox" name="check" value="1">カジノ
-				<input type="checkbox" name="check" value="2">ピラミッド
-				<input type="checkbox" name="check" value="3">自然
-				<input type="checkbox" name="check" value="4">絶景
-				<input type="checkbox" name="check" value="5">きれいな海
-				<input type="checkbox" name="check" value="6">動物
-				<input type="checkbox" name="check" value="7">ディズニーランド
-				<input type="checkbox" name="check" value="8">綺麗な町並み
-				<input type="checkbox" name="check" value="9">寺院
-				<input type="checkbox" name="check" value="10">教会
-				<input type="checkbox" name="check" value="11">モスク
-				<input type="checkbox" name="check" value="12">世界遺産
-				<input type="checkbox" name="check" value="13">買い物
-				<input type="checkbox" name="check" value="14">美味しい料理
-				<input type="checkbox" name="check" value="15">治安
+
+				<h2 class="small_question">あなたが重要だと思うもの（複数選択可）</h2>
+				<input class="radio-inline__input" type="checkbox" name="check" value="0"><label class="radio-inline__label" for="0">古代遺跡</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="1"><label class="radio-inline__label" for="1">カジノ</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="2"><label class="radio-inline__label" for="2">ピラミッド</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="3"><label class="radio-inline__label" for="3">自然</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="4"><label class="radio-inline__label" for="4">絶景</label><br>
+				<input class="radio-inline__input" type="checkbox" name="check" value="5"><label class="radio-inline__label" for="5">きれいな海</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="6"><label class="radio-inline__label" for="6">動物</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="7"><label class="radio-inline__label" for="7">ディズニーランド</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="8"><label class="radio-inline__label" for="8">綺麗な町並み</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="9"><label class="radio-inline__label" for="9">寺院</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="10"><label class="radio-inline__label" for="10">教会</label><br>
+				<input class="radio-inline__input" type="checkbox" name="check" value="11"><label class="radio-inline__label" for="11">モスク</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="12"><label class="radio-inline__label" for="12">世界遺産</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="13"><label class="radio-inline__label" for="13">買い物</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="14"><label class="radio-inline__label" for="14">美味しい料理</label>
+				<input class="radio-inline__input" type="checkbox" name="check" value="15"><label class="radio-inline__label" for="15">治安</label>
+
 
 				<p><input type="button" value="ボタン" onclick="getCheckVal('check');"></p>
 
