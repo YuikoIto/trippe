@@ -11,5 +11,9 @@ class PagesController < ApplicationController
   end
   def time
   end
+  def answer
+  end
+  def contact
+  end
 
 end

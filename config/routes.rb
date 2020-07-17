@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get '/placeLast' => 'pages#placeLast'
   get '/themeLast' => 'pages#themeLast'
   get '/timeLast' => 'pages#timeLast'
+  get '/answer' => 'pages#answer'
+  get '/contact' => 'pages#contact'
 end

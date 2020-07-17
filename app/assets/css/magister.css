@@ -7,6 +7,16 @@
   background-size: cover;
 }
 
+.last-invert {
+  background-image: url("/images/hamburg.jpg");
+  background-size: cover;
+}
+
+.contact-invert {
+  background-image: url("/images/flight.jpg");
+  background-size: cover;
+}
+
 body {
 	background:transparent;
 	min-height:100%;
